@@ -28,6 +28,9 @@ To kill the docker container:
 docker kill container-id
 
 How to run the project from VS Code? 
-CD root folder of the project
-NPM install
-NPM start
+
+1. CD root folder of the project
+
+2. NPM install
+
+3. NPM start
