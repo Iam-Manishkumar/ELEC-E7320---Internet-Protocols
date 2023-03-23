@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group U</title>
+</head>
+<body>
+    <button id="undoButton">Undo</button>
+    <label for="avatar">Upload a picture</label> 
+    <input type="file" id="imageUpload" accept="image/*">
+    <div>
+        <input type="text" id="noteInput" placeholder="Enter Text">
+        <button id="addNoteButton">Add Sticky Note</button>
+    </div>
+    <button id="save-btn">Save as an Image</button>
+    <button onclick="selectTool('eraser')">Eraser</button>
+    <button onclick="selectTool('pen')">Pen</button>
+    <canvas id="canvas"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js" integrity="sha512-xbQU0+iHqhVt7VIXi6vBJKPh3IQBF5B84sSHdjKiSccyX/1ZI7Vnkt2/8y8uruj63/DVmCxfUNohPNruthTEQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./whiteboard.js"></script>
+</body>
+</html>
